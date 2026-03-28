@@ -10,7 +10,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 'https://github.com/YOUR_USERNAME/newrelic-terraform.git'
+                git 'https://github.com/pppawan158/newrelic-terraform.git'
             }
         }
 
