@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        ACCOUNT_ID = credentials('newrelic-account-id')
+        ACCOUNT_ID = credentials('7879377')
         API_KEY = credentials('newrelic-api-key')
     }
 
